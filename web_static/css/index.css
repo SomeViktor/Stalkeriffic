@@ -3,25 +3,30 @@ h1 {
 	font-size: 48px;
 	font-family: "Arial";	
 }
-.struct {
+.form {
 	position: fixed;
 	margin: auto;
 	text-align: center;
-	right: 100px;
-	left: 100px;
-	top: 200px;
-	width: 1000px;
+	
 }
 
 #main_wrapper {
 	height:300px;
 	width:600px;
 	margin-top:200px;
-
-
+	margin-left:auto;
+	margin-right:auto;
+	background-color:green;
 
 
 }
+
+#title {
+	margin-top:80px;
+	background-color:red;
+
+}
+
 /*form {
 	position: fixed;
 	text-align: center;
