@@ -1,3 +1,23 @@
-body {
-	
+h1 {
+	text-align: center;
+	font-size: 48px;
+	font-family: "Arial";	
 }
+.struct {
+	position: fixed;
+	margin: auto;
+	text-align: center;
+	right: 100px;
+	left: 100px;
+	top: 200px;
+	width: 1000px;
+}
+/*form {
+	position: fixed;
+	text-align: center;
+	right:100px;
+	left: 100px;
+	top: 200px;
+	width: 1000px;
+	margin: auto;
+}*/
