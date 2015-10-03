@@ -4,18 +4,21 @@
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 		<script src="bootstrap/js/jquery-1.11.3.min.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 		<title> Stalkeriffic </title>
+	</head>
 		<body>
 			<div id="main_wrapper">
 				<div id="title">
-					<h1> Insert the Email Address of the Person you want to STALK: </h1>
+					<h1 class="md-display-3"> Insert the Email Address of the Person you want to STALK: </h1>
+					
 				</div>
 				<form action="web_static/search.php" method="get">
-					<input type="text" name="query" id="query" size="40" value="">
-					<input type="submit" value="Search">
+					<input class="form-control input-lg" type="text" placeholder=".input-lg">
+					<button type="button" class="btn btn-default btn-lg">Search</button>
 					<input type="hidden" name="search" value="1">
 				</form>
 			</div>
 		</body>
-	</head>
+	
 </html>
