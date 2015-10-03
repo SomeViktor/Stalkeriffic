@@ -7,7 +7,13 @@
 		<title> Stalkeriffic </title>
 		<body>
 			<h1> Insert the Email Address of the Person you want to STALK: </h1>
-
+			<div>
+				<form action="web_static/search.php" method="get">
+					<input type="text" name="query" id="query" size="40" value="">
+					<input type="submit" value="Search">
+					<input type="hidden" name="search" value="1">
+				</form>
+			</div>
 		</body>
 	</head>
 </html>
