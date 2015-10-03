@@ -3,11 +3,12 @@ h1 {
 	font-size: 48px;
 	font-family: "Arial";	
 }
-.form {
+
+
+#search_wrapper {
 	position: fixed;
 	margin: auto;
 	text-align: center;
-	
 }
 
 #main_wrapper {
@@ -20,6 +21,7 @@ h1 {
 
 
 }
+
 
 #title {
 	margin-top:80px;
