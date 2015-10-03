@@ -12,6 +12,16 @@ h1 {
 	top: 200px;
 	width: 1000px;
 }
+
+#main_wrapper {
+	height:300px;
+	width:600px;
+	margin-top:200px;
+
+
+
+
+}
 /*form {
 	position: fixed;
 	text-align: center;
